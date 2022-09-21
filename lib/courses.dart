@@ -81,10 +81,6 @@ class Courses extends StatelessWidget {
                   child: Text(
                       'PCPP1™ – Certified Professional in Python Programming 1'),
                   margin: EdgeInsets.all(30)),
-              Container(
-                  child: Text(
-                      'PCPP2™ – Certified Professional in Python Programming 2'),
-                  margin: EdgeInsets.all(30)),
             ]),
           ),
         ],

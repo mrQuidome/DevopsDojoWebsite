@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
               height: 40, width: 40, fit: BoxFit.scaleDown),
           Center(
             child: ElevatedButton(
-              child: const Text('Courses'),
+              child: const Text('Open Inschrijving'),
               onPressed: () {
                 Navigator.push(
                   context,
