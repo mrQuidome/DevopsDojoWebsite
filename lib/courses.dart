@@ -1,7 +1,7 @@
 import 'package:devops_dojo/pcap.dart';
 import 'package:devops_dojo/pcep.dart';
+import 'package:devops_dojo/rust_fundamentels.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'main_menu.dart';
 import 'package:devops_dojo/ocf8.dart';
 
@@ -14,7 +14,7 @@ class Courses extends StatelessWidget {
       appBar: buildAppBar(),
       body: GridView(
         gridDelegate:
-            SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+            SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
         children: [
           Container(
             color: Colors.blue,
@@ -32,7 +32,7 @@ class Courses extends StatelessWidget {
               Container(
                 child: ElevatedButton(
                   child: const Text(
-                      'Java SE - Oracle Certified Foundations Associate, Java'),
+                      'Java SE - Oracle Certified Foundations Associate, Java SE 8 Programmer'),
                   onPressed: () {
                     Navigator.push(
                       context,
@@ -42,21 +42,29 @@ class Courses extends StatelessWidget {
                 ),
               ),
               Container(
-                  child: Text(
+                child: ElevatedButton(
+                  child: const Text(
                       'Java SE - Oracle Certified Associate, Java SE 8 Programmer'),
-                  margin: EdgeInsets.all(30)),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const Ocf8()),
+                    );
+                  },
+                ),
+              ),
               Container(
-                  child: Text(
+                child: ElevatedButton(
+                  child: const Text(
                       'Java SE - Oracle Certified Professional, Java SE 8 Programmer'),
-                  margin: EdgeInsets.all(30)),
-              Container(
-                  child: Text(
-                      'Java SE - Oracle Certified Professional: Java SE 11 Developer'),
-                  margin: EdgeInsets.all(30)),
-              Container(
-                  child: Text(
-                      'Java SE - Oracle Certified Professional: Java SE 17 Developer'),
-                  margin: EdgeInsets.all(30)),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const Ocf8()),
+                    );
+                  },
+                ),
+              ),
             ]),
           ),
           Container(
@@ -95,10 +103,31 @@ class Courses extends StatelessWidget {
                   },
                 ),
               ),
+            ]),
+          ),
+          Container(
+            color: Colors.blue,
+            margin: EdgeInsets.all(50),
+            child: Column(children: [
               Container(
                   child: Text(
-                      'PCPP1™ – Certified Professional in Python Programming 1'),
-                  margin: EdgeInsets.all(30)),
+                    'Rust',
+                    style: TextStyle(
+                      fontSize: 50.0,
+                    ),
+                  ),
+                  margin: EdgeInsets.all(50)),
+              Container(
+                child: ElevatedButton(
+                  child: const Text('Rust - Fundamentals'),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const RustFundamentals()),
+                    );
+                  },
+                ),
+              ),
             ]),
           ),
         ],
