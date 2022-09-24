@@ -1,3 +1,5 @@
+import 'package:devops_dojo/pcap.dart';
+import 'package:devops_dojo/pcep.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'main_menu.dart';
@@ -70,13 +72,29 @@ class Courses extends StatelessWidget {
                   ),
                   margin: EdgeInsets.all(50)),
               Container(
-                  child:
-                      Text('PCEP™ – Certified Entry-Level Python Programmer'),
-                  margin: EdgeInsets.all(30)),
+                child: ElevatedButton(
+                  child: const Text(
+                      'PCEP™ – Certified Entry-Level Python Programmer'),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const Pcep()),
+                    );
+                  },
+                ),
+              ),
               Container(
-                  child:
-                      Text('PCAP™ – Certified Associate in Python Programming'),
-                  margin: EdgeInsets.all(30)),
+                child: ElevatedButton(
+                  child: const Text(
+                      'PCAP™ – Certified Associate in Python Programming'),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => const Pcap()),
+                    );
+                  },
+                ),
+              ),
               Container(
                   child: Text(
                       'PCPP1™ – Certified Professional in Python Programming 1'),
