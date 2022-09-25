@@ -1,3 +1,5 @@
+import 'package:devops_dojo/oca8.dart';
+import 'package:devops_dojo/ocp8.dart';
 import 'package:devops_dojo/pcap.dart';
 import 'package:devops_dojo/pcep.dart';
 import 'package:devops_dojo/rust_fundamentels.dart';
@@ -48,7 +50,7 @@ class Courses extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => const Ocf8()),
+                      MaterialPageRoute(builder: (context) => const Oca8()),
                     );
                   },
                 ),
@@ -60,7 +62,7 @@ class Courses extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => const Ocf8()),
+                      MaterialPageRoute(builder: (context) => const Ocp8()),
                     );
                   },
                 ),

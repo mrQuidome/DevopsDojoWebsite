@@ -42,7 +42,7 @@ De training bestaat uit het op eigen locatie op eigen tijd bestuderen van de de 
 Certificaat en examen
 Na succesvol afronden van de training ontvang je het certificaat. Het certificaat geeft recht op een examenvoucher voor het bijbehorende examen.
 
-Persoonlijke snelheid en duur
+Persoonlijke snelheid
 De cursus opzet waarborgt een optimale snelheid voor jou persoonlijk. Je kunt de videotraining volgen op een door jou gekozen moment. De praktijklessen zijn individueel en de begeleiding beweegt mee met jouw tempo. De gemiddelde duur van de training is vier praktijklessen maar kan indien nodig kostenloos worden verlengt tot acht.
 
 Starten

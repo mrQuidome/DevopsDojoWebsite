@@ -1,6 +1,7 @@
 import 'package:devops_dojo/flipped.dart';
 import 'package:devops_dojo/courses.dart';
 import 'package:devops_dojo/maatwerk.dart';
+import 'package:devops_dojo/overons.dart';
 import 'package:devops_dojo/start.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -66,7 +67,7 @@ class Home extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const Flipped()),
+                  MaterialPageRoute(builder: (context) => const OverOns()),
                 );
               },
             ),

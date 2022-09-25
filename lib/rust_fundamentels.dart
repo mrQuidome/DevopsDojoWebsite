@@ -47,7 +47,7 @@ De training bestaat uit het op eigen locatie op eigen tijd bestuderen van de de 
 Certificaat 
 Na succesvol afronden van de training ontvang je het certificaat.
 
-Persoonlijke snelheid en duur
+Persoonlijke snelheid
 De cursus opzet waarborgt een optimale snelheid voor jou persoonlijk. Je kunt de videotraining volgen op een door jou gekozen moment. De praktijklessen zijn individueel en de begeleiding beweegt mee met jouw tempo. De gemiddelde duur van de training is vier praktijklessen maar kan indien nodig kostenloos worden verlengt tot acht.
 
 Starten wanneer je wil
@@ -69,8 +69,8 @@ Vandaag inschrijven betekent vandaag beginnen met de videotraining. De praktijkl
 - Smart Pointers
 - Fearless Concurrency'''), margin: EdgeInsets.all(50)),
               Card(child: Text('''Voldoende programmeerervaring in een andere taal. 
-              Neem contact met ons op als je twijfelt of je aan deze voorwaarde kunt voldoen.
-              De Rust Fundamentals Training vereist geen voorkennis met Rust.'''), margin: EdgeInsets.all(50)),
+Neem contact met ons op als je twijfelt of je aan deze voorwaarde kunt voldoen.
+De Rust Fundamentals Training vereist geen voorkennis met Rust.'''), margin: EdgeInsets.all(50)),
               Card(child: Text('''Certificaat
 Na succesvol doorlopen van de training. Wat betekent dat alle vereiste opdrachten succesvol zijn gemaakt krijgt u een certificaat.
 '''), margin: EdgeInsets.all(50)),
